@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/slide.css">
+  <link rel="icon" href="./assets/img/Pizza-logo-design-template-Vector-PNG-transformed 1.png">
+  <link rel="stylesheet" href="./assets/css/style-slider.css">
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/css/Windows.css">
+  <link rel="stylesheet" href="./assets/css/filers.css">
+  <link rel="stylesheet" href="./assets/css/burger.css">
+  <script defer src="./assets/js/main.js"></script>
+</head>
+
+<body>
+
+
+
+
+  <!-- Шапка -->
+
+  <header class="header banner">
+    <div class="container">
+      <nav class="nav">
+        <ul class="menu">
+          <a href="#" class="logo">
+            <img src="./assets/img/Pizza-logo-design-template-Vector-PNG-transformed 1.png" alt="">
+          </a> 
+          <li class="menu__list">
+            <a href="#" class="menu__lin">Главная</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#" class="sub-menu1">Горячая пицца</a></li>
+              <li><a href="#" class="sub-menu1">Напитки</a></li>
+              <li><a href="#" class="sub-menu1">Фотогалерея</a></li>
+            </ul>
+          </li>
+          </li>
+          <li class="menu__list">
+            <a href="#" class="menu__link">Скидки</a>
+          </li>
+          <li class="menu__list">
+            <a href="#" class="menu__link">Напитки</a>
+          </li>
+         
+          <li class="menu__lisc">
+            <a href="#" class="menu__link1"><img src="./assets/img/tel.png" alt=""> <span>+7987293949</span> </a>
+          </li>
+          <li class="menu__list1">
+            <a href="#" class="menu__link"><img src="./assets/img/korz (1).png" alt=""> <span>Корзина</span></a>
+          </li>
+          <nav class="main-nav">
+            <li class="menu__list1">
+              <a href="#0" class="cd-signin"> Войти</a>
+            </li>
+          </nav>
+        </ul>
+      </nav>
+  </header>
+
+  <label>
+    <input type="checkbox">
+    <span class="menu5"> <span class="hamburger"></span> </span>
+    <ul class="ul__1">
+      <li> <a href="#">Главная
+      </a> </li>
+      <li> <a href="#">Скидки
+      </a> </li>
+      <li> <a href="#">Напитки</a> </li>
+      <li> <a href="#"></a> </li>
+      <li> <a href="#">Корзина</a> </li>
+      <nav class="main-nav main-nav_1">
+      <li class="menu__list1"> <a href="#" class="cd-signin">Войти</a> </li>
+    </nav>
+    </ul>
+  </label>
+
+<!-- войти -->
+
+  <div class="cd-user-modal"> 
+    <div class="cd-user-modal-container"> 
+      <ul class="cd-switcher">
+        <li><a href="#0">Вход</a></li>
+        <li><a href="#0">Регистрация</a></li>
+      </ul>
+
+      <div id="cd-login"> 
+        <form class="cd-form">
+          <p class="fieldset">
+            <label class="image-replace cd-email" for="signin-email">E-mail</label>
+            <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <label class="image-replace cd-password" for="signin-password">Пароль</label>
+            <input class="full-width has-padding has-border" id="signin-password" type="text" placeholder="Пароль">
+            <a href="#0" class="hide-password">Скрыть</a>
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <input type="checkbox" id="remember-me" checked>
+            <label for="remember-me">Запомнить меня</label>
+          </p>
+
+          <p class="fieldset">
+            <input class="full-width" type="submit" value="Войти">
+          </p>
+        </form>
+
+        <p class="cd-form-bottom-message"><a href="#0">Забыли свой пароль?</a></p>
+      </div> 
+
+      <div id="cd-signup"> 
+        <form class="cd-form">
+          <p class="fieldset">
+            <label class="image-replace cd-username" for="signup-username">Имя пользователя</label>
+            <input class="full-width has-padding has-border" id="signup-username" type="text"
+              placeholder="Имя пользователя">
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <label class="image-replace cd-email" for="signup-email">E-mail</label>
+            <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <label class="image-replace cd-password" for="signup-password">Пароль</label>
+            <input class="full-width has-padding has-border" id="signup-password" type="text" placeholder="Пароль">
+            <a href="#0" class="hide-password">Скрыть</a>
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <input type="checkbox" id="accept-terms">
+            <label for="accept-terms">Я согласен с <a href="#0">Условиями</a></label>
+          </p>
+
+          <p class="fieldset">
+            <input class="full-width has-padding" type="submit" value="Создать аккаунт">
+          </p>
+        </form>
+
+        <!-- <a href="#0" class="cd-close-form">Close</a> -->
+      </div> <!-- cd-signup -->
+
+      <div id="cd-reset-password"> <!-- форма восстановления пароля -->
+        <p class="cd-form-message">Забыли пароль? Пожалуйста, введите адрес своей электронной почты. Вы получите ссылку,
+          чтобы создать новый пароль.</p>
+
+        <form class="cd-form">
+          <p class="fieldset">
+            <label class="image-replace cd-email" for="reset-email">E-mail</label>
+            <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+            <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+          </p>
+
+          <p class="fieldset">
+            <input class="full-width has-padding" type="submit" value="Восстановить пароль">
+          </p>
+        </form>
+
+        <p class="cd-form-bottom-message"><a href="#0">Вернуться к входу</a></p>
+      </div> <!-- cd-reset-password -->
+      <a href="#0" class="cd-close-form">Закрыть</a>
+    </div> <!-- cd-user-modal-container -->
+  </div> <!-- cd-user-modal -->
+
+
+  </div>
+
+
+
+  <!-- слайдер -->
+  <div class="slide-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper ">
+        <div class="cards swiper-slide phone">
+          <div class="card-content">
+            <h2 class="name color">Счастливые
+              часы <br>
+            </h2>
+            <p class="description color">По будням
+              С 10:00 до 15:00</p>
+          </div>
+        </div>
+        <div class="cards swiper-slide ushi">
+
+
+          <div class="card-content">
+            <h2 class="name">25%</h2>
+            <p class="description1">Скидка на первый заказ <br> По промокоду: AL25</p>
+          </div>
+        </div>
+        <div class="cards swiper-slide  opyt-chto-to">
+
+
+          <div class="card-content">
+            <h2 class="nameb">Скидка</h2>
+            <p class="description2"> В день рождения <br> и 6 дней после него</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Фильтр -->
+  <ul class="filteres">
+    <li class="filter"data-color="all">Все категории</li>
+    <li class="filter" data-color="pizza">Горячая пицца</li>
+    <li class="filter" data-color="napitki">Напитки</li>
+    <li class="filter" data-color="fotogal">Фотогалерея</li>
+
+  </ul>
+
+  <!-- Карточки -->
+
+  <main class="main">
+    <div class="container">
+      <h1 class="all gor_pizza">Горячая пицца</h1>
+      <div class="cards_1 tovar all pizza">
+        <div class="card_1">
+          <div>
+              <img src="./assets/img/Маргарита с томатами-1.png" alt="">
+                <h2>Маргарита с томатами</h2>
+                <p>Томатный соус, моцарелла,<br>
+                  помидоры, орегано</p>
+                <div class="cost-left">
+                  <section>350 Р</section>
+                  <button class="btn">В корзину</button>
+                </div>
+          </div>
+        </div>
+
+        <div class="card_1">
+          <div>
+            <a><img src="./assets/img/4 сыра.png" alt="">
+              <a class="names">
+                <h2>4 сыра пицца</h2>
+                <p>Сливки, крем-сыр, моцарелла,<br>
+                  горгонзола, грана падано</p>
+                <div class="cost-left">
+                  <section>590 Р</section>
+                  <button class="btn">В корзину</button>
+                </div>
+          </div>
+          </a>
+          </a>
+        </div>
+
+        <div class="card_1">
+          <div>
+            <img src="./assets/img/Бьянко.png" alt="">
+            <a class="names">
+              <h2>Бьянка пицца</h2>
+              <p>Сливки, моцарелла, ветчина,<br>
+                пепперони, шампиньоны, маслины</p>
+              <div class="cost-left">
+                <section>550 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+
+
+        <div class="card_1">
+          <div>
+            <img src="./assets/img/Пепперони.png" alt="">
+            <a class="names">
+              <h2>Пепперони пицца</h2>
+              <p>Томатный соус, моцарелла,<br>
+                пепперони</p>
+              <div class="cost-left">
+                <section>450 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="cards_2 tovar all pizza">
+      <div class="card">
+        <div>
+          <img src="./assets/img/Острая Royal.png" alt="">
+          <a class="names">
+            <h2>Острая Royal</h2>
+            <p>Томатный соус, сыр <br>
+              моцарелла,говядина, шампиньоны, <br>
+              лук красный,халапеньо, петрушка</p>
+            <div class="cost-left">
+              <section>590 Р</section>
+              <button class="btn">В корзину</button>
+            </div>
+        </div>
+        </a>
+        </a>
+      </div>
+
+
+      <div class="card">
+        <div>
+          <img src="./assets/img/Ветчина и грибы.png" alt="">
+          <a class="names">
+            <h2>Ветчина и грибы </h2>
+            <p>Томатный соус, сыр моцарелла,<br>
+              шампиньоны, ветчина,<br>
+              петрушка</p>
+            <div class="cost-left">
+              <section>490 Р</section>
+              <button class="btn">В корзину</button>
+            </div>
+        </div>
+        </a>
+        </a>
+      </div>
+
+
+      <div class="card">
+        <div>
+          <img src="./assets/img/Дьябло.png" alt="">
+          <a class="names">
+            <h2>Дьябло пицца</h2>
+            <p>Томатный соус, сыр моцарелла,<br>
+              пепперони, помидоры, халапеньо,<br>
+              соус барбекю</p>
+            <div class="cost-left">
+              <section>550 Р</section>
+              <button class="btn">В корзину</button>
+            </div>
+        </div>
+        </a>
+        </a>
+      </div>
+
+
+      <div class="card">
+        <div>
+          <img src="./assets/img/Деревенская пицца.png" alt="">
+          <a class="names">
+            <h2>Деревенская пицца</h2>
+            <p>Сливки, сыр моцарелла, курица,<br>
+              помидоры, цуккини,<br>
+              соус чесночный</p>
+            <div class="cost-left">
+              <section>490 Р</section>
+              <button class="btn">В корзину</button>
+            </div>
+        </div>
+        </a>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <!-- Карточки напитков -->
+
+    <div class="container">
+      <h1 class="all napitki_1">Напитки</h1>
+      <div class="cards_3 tovar all napitki">
+        <div class="card_4">
+          <div>
+            <img src="./assets/img/кола.png" alt="">
+            <a class="names">
+              <h2>Добрый кола</h2>
+              <div class="cost-left">
+                <section>70 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+
+
+
+        <div class="card_4">
+          <div>
+            <img src="./assets/img/апельсин.png" alt="">
+            <a class="names">
+              <h2>Добрый апельсин </h2>
+              <div class="cost-left">
+                <section>70 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+
+
+
+
+        <div class="card_4">
+          <div>
+            <img src="./assets/img/лимон лайм.png" alt="">
+            <a class="names">
+              <h2>Добрый лимон-лайм </h2>
+              <div class="cost-left">
+                <section>70 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+
+        <div class="card_4">
+          <div>
+            <img src="./assets/img/вода без газа.png" alt="">
+            <a class="names">
+              <h2>Вода без газа</h2>
+              <div class="cost-left">
+                <section>69 Р</section>
+                <button class="btn">В корзину</button>
+              </div>
+          </div>
+          </a>
+          </a>
+        </div>
+      </div>
+
+      <!-- Фотогалерея -->
+
+
+
+
+      <div class="lef">          
+        <h1 class="all photogal">Фотогалерея</h1>
+        <main class="tovar all fotogal"> 
+        <div class="conteiner">
+          <div class="box">
+            <div class="item i2"><img src="./assets/img/image 8.png" alt="" /></div>
+            <div class="item i1"><img src="./assets/img/image 7.png" alt="" /></div>
+            <div class="item i2"><img src="./assets/img/image 9.png" alt="" /></div>
+            <div class="item i1"><img src="./assets/img/image 6.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+</main>
+        <!-- Подвал -->
+
+
+        <footer class="footer">     
+           <div class="container">
+          <ul class="menu1"> 
+            <li class="menu1__list">   
+              <a href="#" class="menu1__lin"><img src="./assets/img/free-icon-three-o-clock-clock-13435 1.png" alt="">
+                с 10:00 до 23:00</a>
+            </li>
+            <li class="menu1__lisc">
+              <a href="#" class="menu1__link1"><img src="./assets/img/tel.png" alt=""> <span>+7987293949</span> </a>
+            </li>
+            <li class="menu1__list">
+              <a href="#" class="menu1__link"><img src="./assets/img/free-icon-vk-reproductor-2150.png" alt=""></a>
+            </li>
+            <li class="menu1__list">
+              <a href="#" class="menu1__link"><img src="./assets/img/free-icon-facebook-3536423.png" alt=""></a>
+            </li>
+            <li class="menu1__list">
+              <a href="#" class="menu1__link"><img src="./assets/img/free-icon-instagram-3938052.png" alt=""></a>
+            </li>
+            <li class="menu1__list">
+              <a href="#" class="menu1__link2">Haziev 2023 ©</a>
+            </li>
+          </ul>
+       </div>
+        </footer>
+</body>
+
+<script src="./assets/js/swiper-bundle.min.js"></script>
+<script src="./assets/js/slider.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./assets/js/modernizr.js"></script>
+<script src="./assets/js/Modal.js"></script>
+<script src="./assets/js/filtr.js"></script>
+
+</html>
