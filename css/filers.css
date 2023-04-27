@@ -1,0 +1,35 @@
+.filteres {
+    /* margin-left: 310px;
+    width: 1290px; */
+    padding: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #5f5f5fc4;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.filter {
+    color: #000000;
+    width: fit-content;
+    font-size: 17px;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+}
+
+.filter:hover {
+    scale: 1.10;
+    color: rgb(0, 0, 0);
+}
+
+.filter:active {
+    scale: 0.95;
+}
+
+@media (max-width: 320px) {
+.filter{
+    font-size: 8px;
+}
+}
